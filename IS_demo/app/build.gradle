@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.ironsource.ironsourcesdkdemo"
         minSdkVersion 21
@@ -48,7 +48,7 @@ dependencies {
     //Huawei Ads Prime
     implementation 'com.huawei.hms:ads-lite:13.4.58.301'
     //Adapter SDK
-    //implementation 'com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.0'
+    implementation 'com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.0'
 
     //Add AdNetworks adapters dependencies - every adapter contains also the ad network SDK.
     //Make sure you also configure the AdNetworks in your dashboard.
