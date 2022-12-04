@@ -80,7 +80,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.huawei.hms:ads-splash:13.4.58.301@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.huawei.hms:ads-instream:13.4.58.301@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.huawei.hms:ads-jsbridge:3.4.58.301@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.1@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="IS_demo.app.main" />
 </module>

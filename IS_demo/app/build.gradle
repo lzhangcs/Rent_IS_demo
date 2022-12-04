@@ -48,7 +48,7 @@ dependencies {
     //Huawei Ads Prime
     implementation 'com.huawei.hms:ads-lite:13.4.58.301'
     //Adapter SDK
-    implementation 'com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.0'
+    implementation 'com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.1'
 
     //Add AdNetworks adapters dependencies - every adapter contains also the ad network SDK.
     //Make sure you also configure the AdNetworks in your dashboard.
