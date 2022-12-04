@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e204136855889680775419dedc0e385a/transformed/jetified-huawei.ads.ironsource_mediation-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e204136855889680775419dedc0e385a/transformed/jetified-huawei.ads.ironsource_mediation-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e204136855889680775419dedc0e385a/transformed/jetified-huawei.ads.ironsource_mediation-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Explore-In-HMS/huawei.ads.ironsource_mediation/1.1.0/511e2344561d9fc9793b1e44fce9f340419475e2/huawei.ads.ironsource_mediation-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.ironsource.ironsourcesdkdemo"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}
+
+//Include IronSource maven repositories
+repositories {
+    maven {
+        //IronSource
+        url "https://android-sdk.is.com/"
+    }
+}
+
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //Add IronSource Mediation SDK dependency.
+    implementation 'com.ironsource.sdk:mediationsdk:7.2.5'
+    
+    //linda
+    //implementation 'com.huawei.hms:panorama:5.0.2.306'
+    implementation 'com.huawei.hms:panorama:4.0.1.300'
+    implementation 'com.huawei.hms:panorama-local:5.0.2.306'
+    //Huawei Ads Prime
+    implementation 'com.huawei.hms:ads-lite:13.4.58.301'
+    //Adapter SDK
+    //implementation 'com.github.Explore-In-HMS:huawei.ads.ironsource_mediation:1.1.0'
+
+    //Add AdNetworks adapters dependencies - every adapter contains also the ad network SDK.
+    //Make sure you also configure the AdNetworks in your dashboard.
+    //For more information: http://developers.ironsrc.com/ironsource-mobile/android/mediation-networks-android/
+}

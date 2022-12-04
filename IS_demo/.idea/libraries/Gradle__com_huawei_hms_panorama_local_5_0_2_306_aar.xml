@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:panorama-local:5.0.2.306@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/463475c300459b5aa62e9ce6d3e46e03/panorama-local-5.0.2.306/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/01d9b3b04837430c61833773791b3fa6/transformed/jetified-panorama-local-5.0.2.306/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/01d9b3b04837430c61833773791b3fa6/transformed/jetified-panorama-local-5.0.2.306/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/01d9b3b04837430c61833773791b3fa6/transformed/jetified-panorama-local-5.0.2.306/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/panorama-local/5.0.2.306/da39a3ee5e6b4b0d3255bfef95601890afd80709/panorama-local-5.0.2.306-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/panorama-local/5.0.2.306/da39a3ee5e6b4b0d3255bfef95601890afd80709/panorama-local-5.0.2.306-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
